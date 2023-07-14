@@ -45,7 +45,7 @@ struct ContentView: View {
             .shadow(radius : 15)
             Text(facts)
                 .font(.title3)
-                .fontWeight(.medium)
+                .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color(red: 0.173, green: 0.0, blue: 0.0))
                 .padding(.bottom, 450.0)
